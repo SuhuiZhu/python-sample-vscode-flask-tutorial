@@ -8,8 +8,8 @@ trigger:
 
 pool:
   vmImage: Default
-  #demands: agent.description -equals int-win-ba01
-  demands: agent.name -equals azagent
+  demands: agent.description -equals azagentest
+  #demands: agent.name -equals azagent
 strategy:
   matrix:
     Python36:
