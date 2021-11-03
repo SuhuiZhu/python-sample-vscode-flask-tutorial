@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool: 'Default'
-  #vmImage: 'Default'
+  #vmImage: windows-latest
   #demands: agent.description -equals azagentest
   #demands: agent.name -equals azagent
 strategy:
