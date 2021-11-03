@@ -8,7 +8,7 @@ trigger:
 
 pool:
   vmImage: 'Default'
-  demands: agent.description -equals azagentest
+  #demands: agent.description -equals azagentest
   #demands: agent.name -equals azagent
 strategy:
   matrix:
