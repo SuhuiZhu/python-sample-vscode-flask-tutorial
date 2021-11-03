@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'Default'
+pool: 'Default'
+  #vmImage: 'Default'
   #demands: agent.description -equals azagentest
   #demands: agent.name -equals azagent
 strategy:
