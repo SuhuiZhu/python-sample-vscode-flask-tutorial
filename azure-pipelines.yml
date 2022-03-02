@@ -11,7 +11,13 @@ jobs:
       Python36:
         python.version: '3.6'
 
-  steps:
-  - task: UsePythonVersion@0
-    inputs:
-      versionSpec: '$(python.version)'
+  # steps:
+  # - task: UsePythonVersion@0
+  #   inputs:
+  #     versionSpec: '$(python.version)'
+- task: PythonScript@0
+  inputs:
+    scriptSource: 'inline'
+    script: |
+      print('Hello world 1')
+      print('Hello world 2')
